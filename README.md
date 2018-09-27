@@ -1,3 +1,3 @@
 # besopmac.me
 
-Repositório do meu site pessoa
+Repositório do meu site pessoal
