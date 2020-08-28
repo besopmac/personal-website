@@ -2391,7 +2391,7 @@ textarea.w-select {
   border-radius: 1rem;
   box-shadow: 0 1rem 2rem .25rem rgba(0, 0, 0, 0.03);
 
-  background-image: url("../../../customweb.webflow.io/assets/hero-site-background.jpg");
+  background-image: url("../hero-site-background.jpg");
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -3063,7 +3063,7 @@ textarea.w-select {
     border-radius: 1rem;
     box-shadow: 0 1rem 2rem .25rem rgba(0, 0, 0, 0.03);
     
-    background-image: url("../../../customweb.webflow.io/assets/hero-mobile-background.png");
+    background-image: url("../hero-mobile-background.png");
     background-position: bottom center;
     background-size: cover;
   }
