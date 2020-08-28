@@ -3133,7 +3133,6 @@ textarea.w-select {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    border: 1px solid red;
   }
   
   .wrapper-flex > .column {
