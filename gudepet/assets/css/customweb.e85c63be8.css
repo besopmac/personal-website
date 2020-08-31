@@ -2646,15 +2646,15 @@ textarea.w-select {
 }
 
 .wrapper-flex {
+  padding: 0;
   display: flex;
-  padding: 0 3rem;
-  align-items: flex-start;
+  align-items: stretch;
   justify-content: space-between;
 }
 
 .wrapper-flex > .column {
   flex: 1;
-  padding: 0 2rem;
+  padding: 0 1rem;
 }
 
 .wrapper-flex > .column > h3 {
@@ -2663,20 +2663,37 @@ textarea.w-select {
 }
 
 .wrapper-flex > .column > .box-icons,
-.wrapper-flex > .column > .box-store {
+.wrapper-flex > .column > .box-store,
+.wrapper-flex > .column > .box-contato {
   display: flex;
 }
 
-.wrapper-flex > .column > .box-store > .button-store {
-  width: 32.5%;
-  margin-right: 20px;
-}
-
 .wrapper-flex > .column > .box-icons > .button-social {
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-right: 15px;
   color: var(--primary-200);
 }
+
+.wrapper-flex > .column > .box-store > .button-store {
+  width: 130px;
+  margin-right: 20px;
+}
+
+.wrapper-flex > .column > .box-contato {
+  display: flex;
+  align-items: center;
+}
+
+.wrapper-flex > .column > .box-contato > span {
+  margin-right: 8px;
+}
+
+.wrapper-flex > .column > .box-contato > a {
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--primary-200);
+}
+
 
 @media screen and (min-width: 992px) {
   .wrapper-header {
@@ -3162,6 +3179,7 @@ textarea.w-select {
   
   .wrapper-flex > .column > .box-icons > .button-social {
     font-size: 3rem;
+    margin: 0 auto 25px;
     color: var(--primary-200);
   }
 
