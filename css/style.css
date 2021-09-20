@@ -1,5 +1,3 @@
-@import url(http://weloveiconfonts.com/api/?family=fontawesome);
-
 :root {
   --default:  #333;
   --bgcolor:  #eee;
@@ -9,64 +7,18 @@
 *,
 *:after,
 *:before {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-/* fontawesome */
-[class*="fontawesome-"]:before {
-  font-family: 'FontAwesome', sans-serif;
-}
-
-html, body,
-p, ul, li, ol, img,
-h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-  padding: 0;
-}
-
-ul, li, ol {
-  list-style: none;
+html {
+  height: 100vh;
 }
 
 body {
-  width: 100%;
-  height: 100vh;
+  height: 100%;
   display: flex;
   align-items: center;
-  color: var(--default);
   justify-content: center;
-  background-color: var(--bgcolor);
 }
-
-a,
-a:visited {
-  font-size: 3em;
-  color: var(--default);
-  text-decoration: none;
-}
-
-a:hover {
-  -webkit-backface-visibility: visible;
-	backface-visibility: visible;
-  animation-duration: 1s;
-  animation-name: pulse;
-  color: var(--linkedin); 
-}
-
-
-
-
-@keyframes pulse {
-	from {
-		transform: scale3d(1, 1, 1);
-	}
-
-	50% {
-		transform: scale3d(1.2, 1.2, 1.2);
-	}
-
-	to {
-		transform: scale3d(1, 1, 1);
-	}
-}
-
